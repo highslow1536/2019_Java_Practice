@@ -19,5 +19,6 @@ public class RectApp {
         rect.height = scanner.nextInt();
         System.out.println("사각형의 면적은 " + rect.getArea());
         scanner.close();
+        System.out.println(rect);
     }
 }

@@ -5,15 +5,16 @@ public class Circle {
     String name;
 
     public Circle() {
-        radius = 1; name = "";
+        this.radius = 1;
+        this.name = "";
     }
 
-    public Circle(int r, String n){
-        radius = r; name = n;
+    public Circle(int radius, String n){
+        this.radius = radius; this.name = n;
     }
 
     public double getArea(){
-        return 3.14*radius*radius;
+        return 3.14*this.radius*this.radius;
     }
 
     public static void main(String[] args) {
