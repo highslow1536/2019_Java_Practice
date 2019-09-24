@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9ca0805-0856-4c35-9649-944692fb8364" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam3/out/production/exam3/com/company/exam3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exam3/out/production/exam3/com/company/exam3_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam3/out/production/exam3/com/company/exam3_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exam3/out/production/exam3/com/company/exam3_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam3/src/com/company/exam3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exam3/src/com/company/exam3_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam3/src/com/company/exam3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exam3/src/com/company/exam3_2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +26,7 @@
   <component name="ProjectId" id="1Qts5ei9VhR1ym0MoXZfEbj8VfS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -138,7 +142,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
