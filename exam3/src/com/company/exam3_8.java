@@ -12,7 +12,8 @@ public class exam3_8 {
         int list[] = new int[n];    // 정수 배열 생성
 
         int count = 0;      // 이쁘게 출력하기 위한 변수
-        for (int i = 0; i < n; i++) {
+        int i = 0;
+        while (i < n){    // 배열을 꽉 채울때까지 반복
             int tmp = (int)(Math.random()*100 + 1); // 1~100 랜덤수 생성
             Arrays.sort(list);  // binarySearch를 이용하기 위한 과정
             if (Arrays.binarySearch(list, tmp) < 0) {   // 랜덤수가 배열에 없는 경우
@@ -23,6 +24,7 @@ public class exam3_8 {
                 list[i] = tmp;  // 배열에 랜덤수 추가
                 System.out.print(list[i] + " ");    // 새 원소 출력
                 count++;
+                i++;        // 배열 index 증가
             }
         }
         scanner.close();    // 스캐너 종료
