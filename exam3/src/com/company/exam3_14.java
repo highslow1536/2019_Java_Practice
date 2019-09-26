@@ -16,7 +16,7 @@ public class exam3_14 {
             for (i = 0; i < 5; i++) {   // 입력받은 과목의 위치 검사
                 if (name.equals(course[i])){    // 입력받은 과목의 점수 출력
                     System.out.println(name + "의 점수는 " + score[i]);
-                    break;      // for문 종료
+                    break;      // for 문 종료
                 }
             }
             if (i == 5) System.out.println("없는 과목입니다.");    // 과목이 없는 경우
