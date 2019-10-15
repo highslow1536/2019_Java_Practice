@@ -1,4 +1,4 @@
-package app;
+package app;    // app 패키지에 분리 작성
 
 import base.Shape;  // base 패키지의 Shape 클래스 임포트
 import derived.Circle;  // derived 패키지의 Circle 클래스 임포트

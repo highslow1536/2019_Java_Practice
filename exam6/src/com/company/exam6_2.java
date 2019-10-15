@@ -13,7 +13,6 @@ class Circle{
     public String toString() {  // toString() 메소드 오버라이딩
         return "Circle(" + x + "," + y + ")반지름" + radius;
     }
-
     @Override
     public boolean equals(Object obj) { // equals() 메소드 오버라이딩
         Circle p = (Circle)obj;     // 다운캐스팅

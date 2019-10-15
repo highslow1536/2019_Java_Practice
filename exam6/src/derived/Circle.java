@@ -1,6 +1,6 @@
-package derived;
+package derived;    // derived 패키지에 분리 작성
 
-import base.*;
+import base.*;  // base 패키지 임포트
 
 public class Circle extends Shape {
     @Override
