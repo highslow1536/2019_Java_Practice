@@ -8,9 +8,9 @@ public class exam3_4 {
 
         System.out.print("소문자 알파벳 하나를 입력하시오>>");
         String s = scanner.next();  // 소문자 알파벳 하나를 입력받음
-        char c = s.charAt(0);   // String형을 char형으로 변환
-        for (char i = c; i >= 'a'; i--) {   // 알파벳 순서만큼 층 생성
-            for (char j = 'a'; j <= i; j++) {   // a부터 입력받은 알파벳까지
+//        char c = s.charAt(0);   // String형을 char형으로 변환
+        for (char c = s.charAt(0); c >= 'a'; c--) {   // 알파벳 순서만큼 층 생성
+            for (char j = 'a'; j <= c; j++) {   // a부터 입력받은 알파벳까지
                 System.out.print(j);            // 한 줄 출력
             }
             System.out.println();   // 다음 층으로 넘어가기 위한 줄바꿈

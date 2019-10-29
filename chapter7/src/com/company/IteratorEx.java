@@ -1,6 +1,9 @@
 package com.company;
 
-import java.util.*;
+//import java.util.*;
+
+import java.util.Iterator;
+import java.util.Vector;
 
 public class IteratorEx {
     public static void main(String[] args) {

@@ -12,7 +12,7 @@ public class VectorEx {
         // 벡터 중간에 삽입하기
         v.add(2, 100);  // 4와 -1 사이에 정수 100 삽입
 
-        System.out.println("벡터 내의 요소 객체 수 : " + v.size());  // 크기 3
+        System.out.println("벡터 내의 요소 객체 수 : " + v.size());  // 크기 4
         System.out.println("백터의 현재 용량 : " + v.capacity());  // 벡터 용량 10
 
         // 모든 요소 정수 출력하기
